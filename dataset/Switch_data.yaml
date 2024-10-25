@@ -1,0 +1,14 @@
+# dataset path
+#path: /root/code/project/yolov8/
+path:
+train: ./dataset/Switch_cabinet/train
+val: ./dataset/Switch_cabinet/val
+#test: ./dataset/images/test
+
+# number of classes
+nc: 24
+
+# class names
+names: ['p_open', 'p_closed', 'WPI', 'OI','ESI','CI','knob_l','knob_m','knob_r','KSD',
+          'HVLD','run','C_position','Leapfrog','A_merging','diastant_p','power','ready','work',
+          'test','opening','mode1','mode2','mode3']
